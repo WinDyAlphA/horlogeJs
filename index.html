@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Ringtone Exercise</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="horloge"></h1>
+      <h2 id="msg"></h2>
+      <audio  id="audio" src="sounds/sound1.mp3" controls></audio>
+    </header>
+    <section id="alarms">
+      <!-- l'alarme ci-dessous est cachée  -->
+      <section id="exampleAlarm" class="alarm">
+        <input class="time" type="time" title="alarm time"/>
+        <input title="name the alarm" placeholder="message"/>
+        <select class="chooseSound">
+          <option>sound1</option>
+          <option>sound2</option>
+          <option>sound3</option>
+        </select>
+        <input title="nombre repetions" placeholder="nombre de sonneries" />
+        <button>-</button> 
+        
+      </section>
+      <button id="addAlarm">Add an alarm</button>
+    </section> 
+    <script src="TpAlarmes.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+.alarm:nth-child(2n){
+  background-color: rgb(211,211,211);
+}
+.alarm:nth-child(2n+1){
+  background-color: rgb(173,216,230);
+}
+
+.alarm{
+  margin-bottom: 1rem;
+}
+
+input, select, button{
+  margin: 0.3rem;
+}
+
+#exampleAlarm{
+  display:none
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
